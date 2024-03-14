@@ -1,0 +1,701 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.navbar-div{
+  height: fit-content;
+  border: 1px solid white;
+}
+
+.navbar-main-div{
+  background-color: rgb(1, 1, 30);
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-options{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-elements{
+  /* margin-top: 9px; */
+}
+
+.navbar-detail-opt{
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.navbar-detail-opt a{
+  color : white;
+  text-decoration: none;
+}
+
+.navbar-detail-opt a:hover{
+  color: rgb(22, 173, 22);
+}
+
+.navbar-detail-opt a:active{
+  color: rgb(153, 184, 153);
+}
+
+.navbar-login-container{
+  margin-left: auto;
+  display: flex;
+}
+
+.navbar-login-opt{
+  margin-left: 20px;
+}
+
+#site-name{
+  margin-left: -20px;
+  color: beige;
+}
+
+/* ##################################################### USER LOGIN PAGE ##################################################### */
+.user-login-page-container{
+  height: 500px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-in-form-wrapper{
+  border: rgb(136, 101, 101) solid 1px;
+  height: 450px;
+  width:400px;
+  display: block;
+}
+
+.log-in-text{
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.log-in-form-container{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.log-in-form{
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-in-form input{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+
+.log-in-form button{
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  margin-top: 30px;
+  background-color: rgb(16, 112, 16);
+  color: white;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+.log-in-form button:hover{
+  background-color: rgb(10, 81, 10); 
+}
+
+.log-in-form button:active{
+  background-color: rgb(3, 96, 3);
+  color: black;
+}
+
+.not-have-ac{
+  font-size: 13px;
+}
+
+
+.not-have-ac a{
+  font-size: 16px;
+  color: rgb(26, 50, 184);
+  text-decoration: none;
+}
+
+
+/* ######################################## User Page ####################################### */
+
+.userpage-navbar-main-div{
+  height: 40px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color:  rgb(1, 18, 12);
+}
+
+.userpage-navbar-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.userpage-navbar-options{
+  display: flex;
+  justify-content: space-between;
+}
+
+.userpage-navbar-options div{
+  margin-right: 30px;
+}
+
+.userpage-navbar-user-options{
+  display: flex;
+  margin-right: 20px;
+}
+
+.userpage-navbar-user-options div{
+  margin-left: 20px;
+}
+
+.userpage-navbar-opt{
+  color: antiquewhite;
+}
+
+.userpage-navbar-opt:hover{
+  color: rgb(142, 216, 139);
+  cursor: pointer;
+}
+
+.userpage-navbar-opt:active{
+  color: rgb(11, 138, 7);
+}
+
+.active-opt{
+  color: rgb(120, 205, 120);
+  text-decoration: underline;
+  
+}
+
+#logoutbtn:hover{
+  color: rgb(173, 52, 52);
+}
+
+#logoutbtn:active{
+  color: rgb(121, 20, 20);
+}
+
+.userpage-opt-div{
+  height: 500px;
+  width: 100%;
+}
+
+.userpage-dashboard-main-div{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard-posted-job-div{
+  width: 55%;
+  height: 100%;
+}
+
+.dashboard-notification-div{
+  width: 45%;
+  height: 100%;
+}
+
+.user-posted-jobs-main-div{
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid green; */
+  border-radius: 5px;
+  background-color: rgb(2, 63, 63);
+}
+
+.user-posted-jobs-header{
+  font-size: 20px;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(1, 31, 31);
+}
+
+.user-posted-jobs-title-text{
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+#add-job-btn-01:hover{
+  background-color: rgb(4, 56, 4);
+  cursor: pointer;
+}
+
+.user-posted-jobs-header button{
+  margin-left: auto;
+  margin: auto;
+  height: 30px;
+  background-color: rgb(14, 82, 60);
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.user-posted-jobs-header button:hover{
+  background-color: rgb(14, 43, 34);
+  color: rgb(172, 188, 181);
+  border: none;
+}
+
+
+.user-posted-jobs-header button:active{
+  background-color: rgb(3, 105, 73);
+  color: rgb(146, 199, 245);
+  border: 1px solid rgb(7, 68, 31);
+}
+
+#post-new-job-main-div{
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#post-job-form-container{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-job-form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-job-form *{
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: beige;
+}
+#add-job-form-title{
+  background-color: transparent;
+}
+
+.post-job-form textarea {
+  height: 50px;
+}
+
+.post-job-form button {
+  height: 30px;
+  width: 50%;
+  background-color: rgb(11, 223, 11);
+}
+
+.post-job-form button:hover{
+  cursor: pointer;
+  background-color: rgb(27, 147, 27);
+  color: white;
+}
+
+.post-job-form button:active {
+  background-color: rgb(27, 147, 27);
+  color: rgb(7, 6, 6);
+}
+
+#add-job-cancel-btn{
+  background-color: rgb(186, 62, 62);
+}
+
+#add-job-cancel-btn:hover{
+  background-color: rgb(95, 10, 10);
+}
+
+#userpage-job-list{
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  border: 2px rgb(3, 28, 3) solid;
+  border-radius: 10px;
+}
+
+.userpage-indivisual-task{
+  background-color: rgb(3, 64, 3);
+  margin-top: 5px;
+  min-height: 50px !important;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.userpage-indivisual-task:hover{
+  background-color: rgb(2, 48, 2);
+  cursor: pointer;
+}
+
+#userpage-joblist-container{
+  height: 90%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.user-page-indivisual-job{
+  min-height: 50px;
+  margin: 10px;
+  background-color: rgb(3, 34, 3);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.user-page-indivisual-job:hover{
+  cursor: pointer;
+  background-color: rgb(83, 142, 83);
+  color: black;
+}
+
+.indivisual-job-inside-div{
+  min-height: 80%;
+  width: 100%;
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  justify-content: center;
+}
+
+.job-title{
+  width: 60%;
+
+}
+
+.job-date{
+  width: 20%;
+}
+
+.job-status{
+  color: rgb(81, 81, 235);
+  font-size: 20px;
+}
+
+#job-details-container{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#job-details-div{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(2, 24, 2);
+}
+
+#job-details-notification-div{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(2, 46, 2);
+}
+
+#job-details-title-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(2, 33, 4);
+}
+
+#job-details-desc{
+  height: 100px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  margin-left: 50px;
+  border: 2px black solid;
+  background-color: rgb(107, 47, 47);
+  color: black;
+  padding: 10px;
+  color: rgb(17, 210, 165);
+  font-size: 20px;
+}
+
+.job-details-div{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.job-details-div div{
+  width: 60%;
+}
+
+#job-details-title-div h3{
+  width: 60% ;
+  text-align: center;
+}
+
+#job-details-title-div button{
+  background-color: rgb(209, 104, 104);
+  height: 30px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+#job-details-title-div button:hover{
+  background-color: rgb(180, 14, 14);
+  cursor: pointer;
+  
+}
+
+#close-text{
+  font-size: 20px;
+  color: rgb(120, 228, 120);
+  padding-right: 20px;
+}
+
+#offer-header{
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.prof-offer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#offer-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#offer-form *{
+  text-align: center;
+  margin-top: 30px;
+  width: 270px;
+}
+
+#offer-form textarea{
+  height: 50px;
+}
+
+#offer-form input{
+  height: 30px;
+}
+
+#offer-form button{
+  background-color: rgb(106, 196, 106);
+  width: 100px;
+  height: 40px;
+  border: 1px white solid;
+}
+
+#offer-form button:hover{
+  cursor: pointer;
+  background-color: rgb(9, 74, 9);
+  color: white;
+}
+
+#offer-form button:active{
+    color: black;
+}
+
+#offers-title{
+  height: 40px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+#prof-job-type{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.offer-div-container{
+  height: auto;
+  border-radius: 5px;
+  background-color: rgb(3, 58, 3);
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.offer-div-title-bar{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.offer-profname{
+  padding: 5px;
+  width: 50%;
+}
+
+.offer-profprice{
+  padding: 5px;
+  width: 20%;
+}
+
+.offer-button-container{
+  padding-right: 20px;
+  display: flex;
+  width: 30%;
+  justify-content: end;
+}
+
+.offer-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-body{
+  padding: 5px;
+}
+
+.offer-prof-msg,
+.offer-prof-phone{
+    padding-top: 5px;
+}
+
+.offer-prof-msg{
+  color: aqua;
+  /* overflow-y: auto; Set overflow-y to auto to enable vertical scrollbar if needed */
+  word-wrap: break-word; /* Optional: Wrap long words to the next line */
+  white-space: normal; /* Set white-space to normal to allow text to wrap */
+}
+
+.offer-accept-btn{
+  border-radius: 5px;
+  background-color: rgb(91, 238, 91);
+}
+
+.offer-accept-btn:hover{
+  cursor: pointer;
+  background-color: rgb(6, 205, 6);
+  scale: 105%;
+}
+
+.offer-accept-btn:active{
+  cursor: pointer;
+  background-color: rgb(189, 216, 189);
+}
+
+
+.offer-accepted-dib-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.offer-accepted-container{
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(93, 227, 144);
+}
+
+.offer-accepted-container *{
+  margin: 20px;
+}
+
+.offer-accepted-greetings{
+  font-size: 25px;
+}
+
+.offer-accepted-note{
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  color: rgb(139, 240, 240);
+  overflow-y: auto;
+  word-wrap: break-word; 
+  white-space: normal;
+  padding: 5px;
+  border: 3px solid rgb(1, 80, 18);
+  background-color: black;
+  line-height: 1.5;
+}
+
+.offer-accepted-happy{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.offer-accepted-from-other{
+  background-color: rgb(9, 78, 9);
+  height: 200px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.offer-accepted-from-other div{
+    margin: 10px;
+}
+
+.offer-from-others{
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.sorry-message{
+  font-size: 50px;
+  color: yellow;
+  text-shadow: -1px 0 #ffd60a, 0 1px #ffd60a;
+  font-style: italic;
+}
